@@ -1,0 +1,351 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+background-size: cover;  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 25px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(212, 212, 5);
+            color: black;
+            border-radius: 25px;
+            transition: 0.6s;
+  }  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: yellow;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .topnav a.topnav-right{
+      border: solid  yellow;
+      background-color: yellow;
+      border-radius: 25px;
+      padding: 5px;
+      margin-right: 10px;
+      color: #000000;
+      float: right;
+      font-size: 20px;
+  } 
+  .topnav a.topnav-right.active{
+    background-color: #000000;
+    color: #ffffff;
+   
+} 
+  .topnav a.topnav-right:hover{
+    background-color: #000000;
+    color: yellow;
+  }
+  .tab {
+    float: left;
+    border: 1px solid yellow;
+    border-radius: 25px;
+
+    background-color: rgb(0, 0, 0,0.9);
+    width: 15%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .tab h1{
+   color: #ffffff;
+   text-align: left;
+   margin-left: 10%;
+  }
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    height: 80px;
+    background-color: rgb(0, 0, 0,0);
+    border-radius: 75px;
+    color:yellow;
+    font-size: large;
+    padding: 22px ;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    cursor: pointer;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: yellow;
+    color: #000000;
+    transition: 0.6s;
+  }
+  
+   .header{
+       border:1px solid yellow;
+       background-color: yellow;
+       font-size: 30px;
+       padding: 16px;
+       text-align: center;
+       color: #000000;
+       font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+       width: 13%;
+      
+   }
+   .center{
+     margin-left: 25%;
+     margin-right: auto;
+   }
+   .arrow{
+    background: none;
+     border: none;
+     cursor: pointer;
+     
+   }
+  
+   .backgroundimg{
+    background-repeat: no-repeat;
+  }
+  .txtbackground{
+    background-image: url("images/textbackground.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: fit-content;
+    display: block;
+    min-height: 600px;
+    display: block;
+    
+  }
+  .background1{
+    background-color: rgba(0, 0, 0,0.7);
+    color:yellow;
+    display: block;
+    height: 125px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    padding:30px;
+    text-align: center;
+    
+  }
+  .faq{
+    float: right;
+  }
+  #info{
+   
+    background-color: rgb(0, 0, 0,0.9);
+    color: yellow;
+    border: 2px yellow solid;
+    border-radius: 50px;
+    height: auto;
+    width:64%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: large;
+    padding: 10px;
+
+  }
+  #info h2{
+    color:white;
+font-family:initial;
+  }
+  .form{
+   
+    background-color: rgb(0, 0, 0,0.9);
+    color: rgb(255, 255, 255);
+    border: 2px yellow solid;
+    border-radius: 50px;
+    height: auto;
+    width:64%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: large;
+    padding: 10px;
+
+  }
+  .submitbutton{
+    background-color: yellow;
+    border: yellow 2px solid;
+    height: 40px;margin-top: 5px;
+    font-size: large;
+    border-radius: 25px;
+    cursor: pointer;
+     color:rgb(0, 0, 0);
+  }
+  
+  .background2{
+    background-image: url('images/backgroundimg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff;
+ 
+    height: 125px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    padding:30px;
+    
+  }
+  mark{
+    background-color: rgb(0, 0, 0); 
+    color: yellow;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .background3{
+    background-image: url("images/backgroundimg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:yellow;
+    padding-top: 100px;
+    display: block;
+    height: 250px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    padding:30px;
+    text-align: center;
+    
+  }
+        a:link{text-decoration: none;}
+  legend{
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding:10px
+      }
+    .pageheader{
+      font-size: 75px;
+      margin-left: 200px;
+      color: #ffffff;
+      font-family: initial;
+    }
+    .gallery{
+      background-color:rgba(0,0,0,0.5);
+    }
+   .gallery img{
+     border: 5px solid black;
+
+     margin-left: 20px;
+
+   }
+   .gallery img:hover{
+   transform: scale(1.5);
+   border-radius: 25px;
+   border: 5px solid yellow;
+   transition: 1s;
+  }
+  .blogheader{
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 50px;
+    border-radius: inherit;
+   
+    min-height: 250px;
+    color: #ffffff;
+    font-size: 100px;
+    font-family: initial;
+  }
+.blogs{
+  padding: 3px;
+  margin: 20px;
+  height: 280px;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 25px;
+  
+  
+}
+
+.blogtext{
+  text-align: center;
+  margin:50px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.blogs a{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  padding: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  
+}  
+.blogs img{
+  border-radius: 25px;
+}
+.blogcontainer{
+  background-color: rgba(0, 0, 0,0.9);
+  border: 2px solid yellow;
+  border-radius: 50px;
+  color: #ffffff;
+  padding:20px ;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: x-large;
+  margin:20px auto;
+  width: 72%;
+  
+}
+.blogcontainer .date{
+
+  font-family: initial;
+  font-weight: bolder;
+}
+.aboutcontainer{
+  background-color: rgba(0, 0, 0,0.9);
+  border: 2px solid yellow;
+  border-radius: 50px;
+  color: #ffffff;
+  padding:20px ;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: x-large;
+  margin:20px auto;
+  width: 72%;
+  text-align: center;
+  
+}
+.aboutcontainer h2{
+  font-family: initial;
+  color: yellow;
+}
+.aboutusbg{
+  background-image: url(images/gymimg1.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contactbg{
+  background-image: url(images/contactbg.jpg);
+  background-attachment: fixed;
+  
+  background-size:cover ;
+}
+.contactcontainer{
+  background-color: rgba(0, 0, 0,0.9);
+
+  color: #ffffff;
+  padding:20px ;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: x-large;
+  
+  text-align: center;
+  
+}
+.contactcontainer h1{
+  color: yellow;
+}
+.contactdetails{
+  text-align: left;
+  margin-left:40%;
+  margin-top:20px;
+  color: yellow;
+}
